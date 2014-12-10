@@ -4,9 +4,12 @@ class ArrayDemo {
         int[] anArray;
         int[] otroArray;
 
+        //este si tiene que copiar :D
+        int[] otroArreglo;
+
         // allocates memory for 10 integers
         anArray = new int[10];
-           
+        otroArreglo = new int[10];
         // initialize first element
         anArray[0] = 100;
         // initialize second element
@@ -47,7 +50,8 @@ class ArrayDemo {
                            + anArray[8]);
         System.out.println("Element at index 9: "
                            + anArray[9]);
-        System.out.println("Otro Arrray: ");
+        /// Copiado mal el arreglo desplegarlo
+        System.out.println("Otro Arrray Copiado Mal: ");
         System.out.println("Element at index 0: "
                            + otroArray[0]);
         System.out.println("Element at index 1: "
@@ -68,5 +72,40 @@ class ArrayDemo {
                            + otroArray[8]);
         System.out.println("Element at index 9: "
                            + otroArray[9]);
+
+        // Copiado bien
+
+        for (int i=0;i<10;i=i+1) {
+          otroArreglo[i] = otroArray[i];
+        }
+        otroArreglo[3] = 400;
+        otroArreglo[4] = 9999;
+        otroArreglo[5] = 8008;
+        otroArreglo[6] = 700;
+        otroArreglo[7] = 7777777;
+        otroArreglo[8] = 900;
+        otroArreglo[9] = 1000;
+        /// Copiado mal el arreglo desplegarlo
+        System.out.println("Otro Arrray Copiado Bien: ");
+        System.out.println("Element at index 0: "
+                           + otroArreglo[0]);
+        System.out.println("Element at index 1: "
+                           + otroArreglo[1]);
+        System.out.println("Element at index 2: "
+                           + otroArreglo[2]);
+        System.out.println("Element at index 3: "
+                           + otroArreglo[3]);
+        System.out.println("Element at index 4: "
+                           + otroArreglo[4]);
+        System.out.println("Element at index 5: "
+                           + otroArreglo[5]);
+        System.out.println("Element at index 6: "
+                           + otroArreglo[6]);
+        System.out.println("Element at index 7: "
+                           + otroArreglo[7]);
+        System.out.println("Element at index 8: "
+                           + otroArreglo[8]);
+        System.out.println("Element at index 9: "
+                           + otroArreglo[9]);
     }
 } 
