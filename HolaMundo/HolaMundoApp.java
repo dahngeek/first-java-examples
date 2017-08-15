@@ -4,6 +4,11 @@
  */
 class HolaMundoApp {
 	public static void main(String[] args) {
-		System.out.println("Holamundooooooo! Java world!");
+		// public - que sea publico
+		// static - se puede mandar a llamar sin inicializar el objeto
+		// void - no devuelve ningún resultado
+		// main - el nombre del método, el default para java que se manda a ejecutar al inicio es main.
+
+		System.out.println("Holamundooooooo! Java world!"); //Función de la salida del sistema que imprime algo.
 	}
 }
