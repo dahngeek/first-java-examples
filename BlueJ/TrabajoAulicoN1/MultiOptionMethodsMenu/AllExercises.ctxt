@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=AllExercises
+comment0.text=\r\n\ Todos\ los\ ejercicios\ hechos\ en\ clase\ 17/08/17\r\n\r\n\ @author\ Daniel\ Xutuc\r\n\ @version\ 0.0.1\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ getPromedio()
+comment2.text=\r\n\ getPromedio\ -\ recibe\ 10\ n\u00FAmeros\ y\ saca\ un\ promedio\ de\ ellos\r\n
+comment3.params=
+comment3.target=void\ drawSquare()
+comment3.text=\r\n\ drawSquare\ -\ dibuja\ un\ cuadrado\ con\ las\ dimensiones\ que\ pregunta\ y\ recibe.\r\n
+comment4.params=
+comment4.target=void\ checkPalindromo()
+comment4.text=\r\n\ checkPalindromo\ -\ recibe\ una\ palabra\ y\ revisa\ si\ es\ palindromo.\r\n
+numComments=5

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Principal
+comment0.text=\r\n\ Imprime\ un\ rectangulo\ en\ base\ a\ el\ ancho\ y\ alto\ que\ recibe\r\n\r\n\ @author\ Daniel\ Xutuc\r\n\ @version\ 17082017\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
