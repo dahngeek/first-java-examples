@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=EjercicosPrincipal
+comment0.text=\r\n\ Ejercicios\ solicitadoss\ el\ d\u00EDa\ Jueves\ 24\ de\ Agosto\r\n\r\n\ @author\ Daniel\ Xutuc\ (@dahngeek)\r\n\ @version\ 22/08/17\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ extremoDeArregloNumeros()
+comment3.params=
+comment3.target=void\ transversaMatriz()
+comment4.params=matriz
+comment4.target=void\ imprimirMatriz(int[][])
+numComments=5
