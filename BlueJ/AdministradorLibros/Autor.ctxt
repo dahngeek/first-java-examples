@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Autor
+comment1.params=
+comment1.target=Autor()
+comment10.params=libr
+comment10.target=void\ addBook(Libro)
+comment11.params=
+comment11.target=java.util.ArrayList\ getBooks()
+comment12.params=
+comment12.target=int\ getLibrosCount()
+comment2.params=nombre\ apellido\ nacionalidad
+comment2.target=Autor(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.params=nom
+comment3.target=void\ setNombre(java.lang.String)
+comment4.params=ape
+comment4.target=void\ setApellido(java.lang.String)
+comment5.params=nac
+comment5.target=void\ setNacionalidad(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getNombre()
+comment7.params=
+comment7.target=java.lang.String\ getFullname()
+comment8.params=
+comment8.target=java.lang.String\ getApellido()
+comment9.params=nac
+comment9.target=java.lang.String\ getNacionalidad(java.lang.String)
+numComments=13

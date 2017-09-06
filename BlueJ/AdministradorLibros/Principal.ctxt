@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Principal
+comment1.params=
+comment1.target=void\ main()
+comment2.params=
+comment2.target=void\ Menu()
+comment3.params=
+comment3.target=void\ crearAutor()
+comment4.params=
+comment4.target=void\ listarAutores()
+comment5.params=
+comment5.target=void\ crearLibro()
+comment6.params=
+comment6.target=void\ listarLibros()
+comment7.params=
+comment7.target=void\ seed()
+numComments=8
