@@ -78,6 +78,12 @@ public class Principal
       autores.add(nuevoAutor); // Lo agregamos al arraylist
   }
   
+  public static void ordenarAutores(){
+      // ArrayList autores
+      
+      
+  }
+  
   public static void listarAutores(){
       // recorremos el arraylist
       for(int i = 0; i < autores.size(); i++){

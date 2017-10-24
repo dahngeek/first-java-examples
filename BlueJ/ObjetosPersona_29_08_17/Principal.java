@@ -14,7 +14,8 @@ public class Principal
         System.out.println("======== Gestión de personas ========");
         do{
             peopleQuantity = Console.readInt("¿Cuantas personas ingresará?");
-            personas = new Persona[peopleQuantity];
+            personas = new Persona[peopleQuantity]; //El areglo es de la cantidad ingresada anteriormente.
+
             for(int i=0; i < peopleQuantity; i++){
                 personas[i] = obtenerPersona();
             }
@@ -47,6 +48,8 @@ public class Principal
         String lastname = Console.readLine("    Apellido: ");
         int edad = Console.readInt("    Edad: ");
         int dni = Console.readInt("    DNI: ");
-        return new Persona(dni, name, lastname, edad);
+
+        Persona nuevap = new Persona(dni, name, lastname, edad);
+        return nuevap;
     }
 }
